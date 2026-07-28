@@ -1,0 +1,20 @@
+{
+  "name": "datapulse-datahub",
+  "version": "1.0.0",
+  "description": "Continuous intelligence monitoring for DataHub — structural break detection, correlation analysis, and automated health scoring via Intelli-Stasis",
+  "type": "module",
+  "main": "connector.js",
+  "scripts": {
+    "start": "node connector.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "license": "Apache-2.0",
+  "author": "Bryan Mazzocchi <madazz01@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madazz01/datapulse-datahub.git"
+  },
+  "keywords": ["datahub", "data-catalog", "data-quality", "intelligence", "monitoring", "mcp"]
+}
