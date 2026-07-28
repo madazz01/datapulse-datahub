@@ -62,12 +62,15 @@ npm install node-fetch
 ```
 
 ### 2. Configure
-Edit the constants at the top of `connector.js`:
-```js
-const DATAHUB_URL = 'http://localhost:8080';   // your DataHub GMS URL
-const STASIS_URL  = 'http://localhost:3400';   // Intelli-Stasis API URL
-const STASIS_KEY  = 'sk_stasis_...';           // your Intelli-Stasis API key
+Set environment variables (or edit the constants at the top of `connector.js`):
+
+```bash
+export DATAHUB_URL=http://localhost:8080        # your DataHub GMS URL
+export STASIS_URL=https://api.intellistasis.com # Intelli-Stasis API
+export STASIS_KEY=sk_stasis_demo_46a9fb14a7d23d260137f2ad4f0b8708  # demo key (100 calls/day)
 ```
+
+> **Demo key** `sk_stasis_demo_46a9fb14a7d23d260137f2ad4f0b8708` — free tier, 100 calls/day, points at the live Intelli-Stasis engine. Get your own key at [intellistasis.com](https://intellistasis.com) for unlimited access.
 
 ### 3. Run
 ```bash
