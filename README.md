@@ -125,4 +125,4 @@ Apache 2.0 — see [LICENSE](LICENSE).
 
 ## Author
 
-Bryan Mazzocchi · [Intelli-Stasis](https://intellistasis.com)
+Bryan Horsfield · [Intelli-Stasis](https://intellistasis.com)
